@@ -1,0 +1,341 @@
+{
+	"name": "Fresh Dark Color Theme",
+	"type": "dark",
+	"colors": {
+		"activityBar.activeBackground": "#5FC9F815",
+		"activityBar.activeBorder": "#5FC9F8",
+		"activityBar.background": "#303030",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBar.inactiveForeground": "#C7C7C7",
+		"activityBarBadge.background": "#5FC9F8",
+		"activityBarBadge.foreground": "#FFFFFF",
+		"badge.background": "#5FC9F8",
+		"badge.foreground": "#FFFFFF",
+		"editor.background": "#303030",
+		"editor.foreground": "#F8F8F8",
+		"editor.inactiveSelectionBackground": "#505050",
+		"editor.selectionBackground": "#FFFFFF35",
+		"editor.selectionHighlightBackground": "#FFFFFF50",
+		"editorCursor.foreground": "#FFFFFF",
+		"editorHoverWidget.background": "#555555",
+		"editorHoverWidget.border": "#777777",
+		"editorHoverWidget.foreground": "#F8F8F8",
+		"list.activeSelectionBackground": "#235997",
+		"list.inactiveSelectionBackground": "#575757",
+		"sideBarTitle.foreground": "#BBBBBB",
+		"statusBar.background": "#235997",
+		"statusBar.debuggingBackground": "#FF9D6B",
+		"statusBar.noFolderBackground": "#AE56C4",
+		"tab.inactiveBackground": "#575757",
+	},
+	"tokenColors": [
+		{
+			"name": "Class",
+			"scope": [
+				"support.class",
+				"support.type",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#AAB6FE",
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+			],
+			"settings": {
+				"foreground": "#88846F",
+			}
+		},
+		{
+			"name": "Constant",
+			"scope": [
+				"constant",
+			],
+			"settings": {
+				"foreground": "#69BCFE",
+			}
+		},
+		{
+			"name": "Function",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"keyword.other",
+				"keyword.other.import",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Keyword | Assignment Operator",
+			"scope": [
+				"keyword.operator.assignment",
+			],
+			"settings": {
+				"foreground": "#F5F5F5",
+			}
+		},
+		{
+			"name": "Keyword | Control",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#7BFFC6",
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#FF94C2",
+			}
+		},
+		{
+			"name": "Storage | Primitive Type",
+			"scope": [
+				"storage.type.primitive",
+				"storage.type",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string.interpolated.double",
+				"string.interpolated.single",
+			],
+			"settings": {
+				"foreground": "#AAE0FE",
+			}
+		},
+		{
+			"name": "String interpolation",
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			},
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "Variable | Language",
+			"scope": [
+				"variable.language",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FFB269",
+			}
+		},
+		// JSON
+		{
+			"name": "JSON | Comment | Double Quoted",
+			"scope": [
+				"string.quoted.double.json.comments"
+			],
+			"settings": {
+				"foreground": "#B4E38D",
+			}
+		},
+		{
+			"name": "JSON | Property Name",
+			"scope": [
+				"support.type.property-name.json.comments"
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		// Markdown
+		{
+			"name": "Markdown | Code",
+			"scope": [
+				"markup.fenced_code.block",
+				"markup.inline.raw.string.markdown",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Markdown | Code Language",
+			"scope": [
+				"fenced_code.block.language.markdown",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Markdown | Heading",
+			"scope": [
+				"markup.heading.markdown",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FF94C2",
+			}
+		},
+		{
+			"name": "Markdown | Link Reference",
+			"scope": [
+				"constant.other.reference.link.markdown",
+				"markup.underline.link.markdown",
+			],
+			"settings": {
+				"foreground": "#69BCFE"
+			}
+		},
+		{
+			"name": "Markdown | Link Title",
+			"scope": [
+				"string.other.link.title.markdown",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Markdown | List Begin",
+			"scope": [
+				"punctuation.definition.list.begin.markdown",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			}
+		},
+		{
+			"name": "Markdown | Separator",
+			"scope": [
+				"meta.separator.markdown",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		// Markup
+		{
+			"name": "Markup | Bold",
+			"scope": [
+				"markup.bold",
+				"markup.bold string",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#AAB6FE",
+			}
+		},
+		{
+			"name": "Markup | Italic",
+			"scope": [
+				"markup.italic",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFE49E",
+			}
+		},
+		{
+			"name": "Markup | Italic Bold",
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold",
+				"markup.quote markup.bold",
+				"markup.bold markup.italic string",
+				"markup.italic markup.bold string",
+				"markup.quote markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "italic bold",
+				"foreground": "#AAB6FE",
+			}
+		},
+		// YAML
+		{
+			"name": "YAML | Block Sequence Item",
+			"scope": [
+				"punctuation.definition.block.sequence.item.yaml",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			}
+		},
+		{
+			"name": "YAML | Comment",
+			"scope": [
+				"comment.line.number-sign.yaml",
+			],
+			"settings": {
+				"foreground": "#D0D0D0",
+			}
+		},
+		{
+			"name": "YAML | Constant Boolean",
+			"scope": [
+				"constant.language.boolean.yaml",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#69BCFE",
+			}
+		},
+		{
+			"name": "YAML | Entity Name Tag",
+			"scope": [
+				"entity.name.tag.yaml",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "YAML | Unquoted Plain Out",
+			"scope": [
+				"string.unquoted.plain.out.yaml",
+			],
+			"settings": {
+				"foreground": "#B4E38D",
+			}
+		},
+		// URL		
+		{
+			"name": "URL",
+			"scope": [
+				"*link*",
+				"*uri*",
+				"*url*",
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+	]
+}

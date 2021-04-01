@@ -1,0 +1,25 @@
+{
+    "name": "marco87dev-fresh-dark",
+    "displayName": "Fresh Dark",
+    "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fresh Dark Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Fresh Dark Color Theme-color-theme.json"
+            }
+        ]
+    },
+    "publisher": "marco87dev",
+    "repository": {
+        "url": "https://github.com/Marco87Developer/fresh-color-theme"
+    }
+}
