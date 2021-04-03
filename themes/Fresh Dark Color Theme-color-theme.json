@@ -14,6 +14,8 @@
 		"editor.background": "#303030",
 		"editor.foreground": "#F8F8F8",
 		"editor.inactiveSelectionBackground": "#505050",
+		"editor.lineHighlightBackground": "#FFFFFF30",
+		"editor.lineHighlightBorder": "#FFFFFF10",
 		"editor.selectionBackground": "#FFFFFF35",
 		"editor.selectionHighlightBackground": "#FFFFFF50",
 		"editorCursor.foreground": "#FFFFFF",
@@ -165,11 +167,22 @@
 			}
 		},
 		{
+			"name": "JSON | Constant",
+			"scope": [
+				"constant.language.json.comments",
+			],
+			"settings": {
+				"foreground": "#69BCFE",
+				"fontStyle": "italic",
+			}
+		},
+		{
 			"name": "JSON | Property Name",
 			"scope": [
 				"support.type.property-name.json.comments"
 			],
 			"settings": {
+				"fontStyle": "",
 				"foreground": "#66D9EF",
 			}
 		},
