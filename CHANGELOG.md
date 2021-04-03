@@ -1,9 +1,11 @@
-# Change Log
+# 0.1.0
 
-All notable changes to the "marco87dev-fresh-dark" extension will be documented in this file.
+<sup><sub>Release date: 2021-04-03.</sub></sup>
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+* Fixed `editor.lineHighlightBackground`, `editor.lineHighlightBorder`, `editor.selectionBackground`, `editor.selectionHighlightBackground` and `editor.inactiveSelectionBackground`.
 
-## [Unreleased]
+# 0.0.1
 
-- Initial release
+<sup><sub>Release date: 2021-04-01.</sub></sup>
+
+* First upload to the Marketplace.
