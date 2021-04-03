@@ -1,3 +1,10 @@
+# 0.2.0
+
+<sup><sub>Release date: 2021-04-03.</sub></sup>
+
+* Added an icon to the extension.
+* Changed `string.quoted.double.json.comments` color.
+
 # 0.1.0
 
 <sup><sub>Release date: 2021-04-03.</sub></sup>
