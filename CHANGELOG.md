@@ -1,3 +1,9 @@
+# 0.3.0
+
+<sup><sub>Release date: 2021-05-03.</sub></sup>
+
+* Added support for XML.
+
 # 0.2.0
 
 <sup><sub>Release date: 2021-04-03.</sub></sup>

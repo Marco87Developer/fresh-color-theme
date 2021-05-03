@@ -22,6 +22,8 @@
 		"editorHoverWidget.background": "#555555",
 		"editorHoverWidget.border": "#777777",
 		"editorHoverWidget.foreground": "#F8F8F8",
+		"editorLineNumber.activeForeground": "#FFFFFF",
+		"editorLineNumber.foreground": "#777777",
 		"list.activeSelectionBackground": "#235997",
 		"list.inactiveSelectionBackground": "#575757",
 		"sideBarTitle.foreground": "#BBBBBB",
@@ -156,6 +158,25 @@
 				"foreground": "#FFB269",
 			}
 		},
+		// Dart
+		{
+			"name": "Dart | Operator | Comparison",
+			"scope": [
+				"keyword.operator.comparison.dart",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Dart | Punctuation | Comma",
+			"scope": [
+				"punctuation.comma.dart",
+			],
+			"settings": {
+				"foreground": "#DDDDDD",
+			}
+		},
 		// JSON
 		{
 			"name": "JSON | Comment | Double Quoted",
@@ -163,7 +184,7 @@
 				"string.quoted.double.json.comments"
 			],
 			"settings": {
-				"foreground": "#FFE49E",
+				"foreground": "#AAE0FE",
 			}
 		},
 		{
@@ -182,7 +203,6 @@
 				"support.type.property-name.json.comments"
 			],
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF",
 			}
 		},
@@ -348,6 +368,63 @@
 			],
 			"settings": {
 				"fontStyle": "underline"
+			}
+		},
+		// XML
+		{
+			"name": "XML | Double Quoted String",
+			"scope": [
+				"string.quoted.double.xml",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "XML | Entity Name Tag Localname",
+			"scope": [
+				"entity.name.tag.localname.xml",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#AAB6FE",
+			}
+		},
+		{
+			"name": "XML | Entity Other Attribute-Name Localname",
+			"scope": [
+				"entity.other.attribute-name.localname.xml",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			}
+		},
+		{
+			"name": "XML | Entity Other Attribute-Name Namespace",
+			"scope": [
+				"entity.other.attribute-name.namespace.xml",
+			],
+			"settings": {
+				"foreground": "#FF94C2",
+			}
+		},
+		{
+			"name": "XML | Punctuation Definition",
+			"scope": [
+				"punctuation.definition.tag.xml",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "XML | String Punctuation Definition",
+			"scope": [
+				"punctuation.definition.string.begin.xml",
+				"punctuation.definition.string.end.xml",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
 			}
 		},
 	]
