@@ -193,17 +193,19 @@
 				"constant.language.json.comments",
 			],
 			"settings": {
-				"foreground": "#69BCFE",
+				"foreground": "#FF94C2",
 				"fontStyle": "italic",
 			}
 		},
 		{
 			"name": "JSON | Property Name",
 			"scope": [
-				"support.type.property-name.json.comments"
+				"support.type.property-name.json",
+				"support.type.property-name.json.comments",
 			],
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#FFE49E",
+				"fontStyle": "",
 			}
 		},
 		// Markdown
@@ -318,7 +320,7 @@
 				"punctuation.definition.block.sequence.item.yaml",
 			],
 			"settings": {
-				"foreground": "#FFE49E",
+				"foreground": "#FFFFFF",
 			}
 		},
 		{
@@ -337,7 +339,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#69BCFE",
+				"foreground": "#FF94C2",
 			}
 		},
 		{
@@ -355,7 +357,7 @@
 				"string.unquoted.plain.out.yaml",
 			],
 			"settings": {
-				"foreground": "#B4E38D",
+				"foreground": "#7BFFC6",
 			}
 		},
 		// URL		
