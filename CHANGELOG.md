@@ -1,3 +1,15 @@
+# 0.4.0
+
+<sup><sub>Release date: 2021-05-13.</sub></sup>
+
+* Added support for Groovy.
+
+# 0.3.1
+
+<sup><sub>Release date: 2021-05-08.</sub></sup>
+
+* Fixed YAML and JSON colors.
+
 # 0.3.0
 
 <sup><sub>Release date: 2021-05-03.</sub></sup>

@@ -7,6 +7,7 @@ I suggest to use this theme with the [JetBrains Mono](https://www.jetbrains.com/
 Among others, this package supports the following languages:
 
 * Dart
+* Groovy
 * HTML
 * JSON
 * Markdown

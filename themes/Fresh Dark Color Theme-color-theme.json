@@ -177,11 +177,112 @@
 				"foreground": "#DDDDDD",
 			}
 		},
+		// Groovy
+		{
+			"name": "Groovy | Constant",
+			"scope": [
+				"constant.other.key.groovy",
+			],
+			"settings": {
+				"foreground": "#7BFFC6",
+			}
+		},
+		{
+			"name": "Groovy | Def Storage Type",
+			"scope": [
+				"storage.type.def.groovy",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#FFB269",
+			}
+		},
+		{
+			"name": "Groovy | Embedded Punctuation Section",
+			"scope": [
+				"punctuation.section.embedded.groovy",
+				"source.groovy.embedded.source",
+			],
+			"settings": {
+				"foreground": "#FF94C2",
+			}
+		},
+		{
+			"name": "Groovy | Interpolated Other Variable",
+			"scope": [
+				"variable.other.interpolated.groovy",
+			],
+			"settings": {
+				"foreground": "#FF94C2",
+			}
+		},
+		{
+			"name": "Groovy | Method",
+			"scope": [
+				"meta.method.groovy",
+				"meta.method-call.groovy",
+			],
+			"settings": {
+				"foreground": "#FFE49E",
+			},
+		},
+		{
+			"name": "Groovy | Method | Begin and end",
+			"scope": [
+				"punctuation.definition.method-parameters.begin.groovy",
+				"punctuation.definition.method-parameters.end.groovy",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			},
+		},
+		{
+			"name": "Groovy | Operator Keyword",
+			"scope": [
+				"keyword.operator.groovy",
+				"keyword.operator.arithmetic.groovy",
+				"keyword.operator.assignment.groovy",
+				"keyword.operator.comparison.groovy",
+				"keyword.operator.navigation.groovy",
+			],
+			"settings": {
+				"foreground": "#FFFFFF",
+			}
+		},
+		{
+			"name": "Groovy | Source",
+			"scope": [
+				"source.groovy",
+			],
+			"settings": {
+				"foreground": "#66D9EF",
+			}
+		},
+		{
+			"name": "Groovy | Storage",
+			"scope": [
+				"storage.type.groovy",
+			],
+			"settings": {
+				"foreground": "#AAB6FE",
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"name": "Groovy | Strings",
+			"scope": [
+				"string.quoted.double.groovy",
+				"string.quoted.single.groovy",
+			],
+			"settings": {
+				"foreground": "#AAE0FE",
+			}
+		},
 		// JSON
 		{
 			"name": "JSON | Comment | Double Quoted",
 			"scope": [
-				"string.quoted.double.json.comments"
+				"string.quoted.double.json.comments",
 			],
 			"settings": {
 				"foreground": "#AAE0FE",

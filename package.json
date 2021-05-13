@@ -2,9 +2,9 @@
     "name": "marco87dev-fresh-dark",
     "displayName": "Fresh Dark",
     "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "engines": {
-        "vscode": "^1.55.2"
+        "vscode": "^1.56.2"
     },
     "categories": [
         "Themes"
