@@ -1,3 +1,9 @@
+# 0.5.0
+
+<sup><sub>Release date: 2021-05-19.</sub></sup>
+
+* Added light theme with a LaTeX support.
+
 # 0.4.0
 
 <sup><sub>Release date: 2021-05-13.</sub></sup>

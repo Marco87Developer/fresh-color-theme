@@ -1,4 +1,4 @@
-# Fresh Dark Color Theme
+# Fresh Sober Color Theme
 
 This is a theme inspired by *relaxation* and *freshness*, for a code that is beautiful to look at, easy to read and pleasant to write.
 
@@ -9,6 +9,7 @@ Among others, this package supports the following languages:
 * Dart
 * Groovy
 * HTML
+* LaTeX
 * JSON
 * Markdown
 * YAML

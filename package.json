@@ -1,8 +1,8 @@
 {
-    "name": "marco87dev-fresh-dark",
-    "displayName": "Fresh Dark",
+    "name": "marco87dev-fresh-sober",
+    "displayName": "Fresh and Sober Theme",
     "description": "This is a theme inspired by relaxation and freshness, for a code that is beautiful to look at, easy to read and pleasant to write",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "engines": {
         "vscode": "^1.56.2"
     },
@@ -15,10 +15,15 @@
                 "label": "Fresh Dark Color Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Fresh Dark Color Theme-color-theme.json"
+            },
+            {
+                "label": "Fresh Light Color Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Fresh Light Color Theme-color-theme.json"
             }
         ]
     },
-    "icon": "images/dark_logo.png",
+    "icon": "images/logo.png",
     "publisher": "marco87dev",
     "repository": {
         "url": "https://github.com/Marco87Developer/fresh-color-theme"
